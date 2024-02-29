@@ -1,0 +1,227 @@
+*{
+    margin: 0% ;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #d7fddf ;
+    font-family: 'Catamaran', sans-serif ;
+}
+.container {  
+    margin: auto;
+    width: 90vw;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}  
+.header {  
+    background: linear-gradient(to bottom,  #6daf7b 12%,#9bfab0 32%,#d7fddf 100%);
+    padding: 1.2rem;
+    grid-area: header;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.5fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "nombre"
+    "menu2";
+}
+.logo1{
+    width: 200px;
+}
+.header nombre {
+    grid-area: nombre;
+}
+.nombre1{
+    color: black;
+    font-size: 2rem;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+.menu5{
+    transition: all 2s;
+}
+.menu5:hover{
+    transform: scale(1.2,1.2);
+}
+h1,h2,h4, p{
+    font-family: 'Handlee', cursive;
+}
+.main {  
+    margin: auto;
+    background-color: #d7fddf;
+    padding: 1.2rem;
+   
+}
+  
+.titulo1{ grid-area: titulo1; }
+.let{
+    text-align: center;
+    font-size: 2rem;
+    padding: 20px;
+} 
+.imagen1 { grid-area: imagen1; }
+.img1{ 
+    width: 500px;
+}  
+.prueba{ 
+    grid-area: prueba;
+    padding: 10px;
+    text-align: center; 
+}
+.colorboton{
+    background-color: #6daf7b; 
+}
+.link{
+    text-decoration: none;
+}
+.solicita{
+    font-size: 1.5rem;
+    color: black;
+}
+.solicita:hover{
+    transform: scale(1.2,1.2);
+}
+.quiensoy{ grid-area: quiensoy; }
+.t4{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;    
+} 
+.main imagen2{ grid-area: imagen2; }
+.imga2{
+    width: 400px;
+} 
+.parrafo1{ grid-area: parrafo1; } 
+.p1{
+    padding: 20px;
+    line-height: 2;
+}
+.p2{
+    padding: 20px;
+    line-height: 2;
+}
+.t1{
+    text-align: right;
+}
+.profesor{ grid-area: profesor; }
+.s1{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}   
+.imagen3{ grid-area: imagen3; }
+.img3{
+    width: 200px;
+}  
+.parrafo2{ grid-area: parrafo2; }
+.p3{
+    padding: 20px;
+    line-height: 2;
+}  
+.clasesx{ 
+    padding: 20px;
+    margin: auto; 
+}
+.imagenclick{
+    padding: 20px;
+}
+.nivelclick{
+    padding: 20px;
+    margin: auto;
+}
+.t5{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+}  
+.gramatica{ grid-area: gramatica; }
+
+.img4:hover{
+    transform: scale(1.2,1.2)
+}
+.img4{
+    width: 350px;
+}  
+.conversacion{ grid-area: conversacion; }
+.img5{
+    width: 350px;
+}  
+.img5:hover{
+    transform: scale(1.2,1.2)
+}
+.imagen6
+.img6{
+    width: 200px;
+}  
+.nivel
+.s2{
+    text-align: center;
+    font-size: 1.5rem;
+}   
+.link a{
+    text-decoration: none;
+}
+.ss{
+    text-align: center;
+    font-size: 1.5rem;
+    text-emphasis-color: white;
+    color: black;
+}
+.ss:hover{
+    transform: scale(1.2,1.2)
+}
+.colorboton2{
+    background-color: white;
+} 
+.footer{  
+    padding: 30px;
+    background: linear-gradient(#d7fddf #9bfab0 #6daf7b);
+    display: flex;
+    justify-content: space-between;
+    grid-area: footer;
+    text-align: center;
+}
+.logo2{ grid-area: logo2; }
+  
+.contactame
+  
+.cierre{ grid-area: cierre; }
+
+.cierre{ 
+    text-align: center;
+    font-size: 2rem;
+    padding: 10px;
+} 
+.logo2{ 
+    width: 200px;
+    align-self: start;
+    padding: 10px; 
+}
+.contactame{ 
+    grid-area: Contactame;
+    align-self: self-end;
+    padding: 10px; 
+}
+.contactame a{
+    text-decoration: none;
+}
+.s4{
+    text-align: center;
+    font-size: 2rem; 
+    color: black;
+}
+.formulario{
+    margin: auto;
+    padding: 20px;
+}
